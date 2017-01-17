@@ -31,7 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    //可以封装一下  变成公用的就好了
     self.title =@"商品规格选择封装";
     self.edgesForExtendedLayout = UIRectEdgeNone;//从导航栏下面开始计算起始点   全屏布局模式，默认值是UIRectEdgeAll
     self.extendedLayoutIncludesOpaqueBars = NO; //用来指定导航栏是透明的还是不透明
